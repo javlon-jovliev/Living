@@ -1,52 +1,97 @@
 # Living — Vision
 
-**Holat:** Vision / loyiha niyati. Bu texnik imkoniyatlar isbotlanganini anglatmaydi.  
-**Yangilangan:** 2026-11-11
+**Holat:** Vision / loyiha niyati; bu texnik imkoniyatlar isbotlanganini anglatmaydi.  
+**Yangilangan:** 2026-11-12  
+**Asosiy konsept:** [Conceptual Framework v0.1](concepts/conceptual-framework-v0.1.md)
 
-## Maqsad
+## Missiya
 
-Living — inson o‘zining shaxsiy raqamli makonini tayyor ilovalar chegarasiga qamalmasdan, fizik materialni shakllantirgandek **bevosita** o‘zgartira oladigan hisoblash muhitini tadqiq etish tashabbusi.
+**Living — insonning fikrlashi, tasavvuri, niyati va kreativligini hisoblash mashinalari bilan chuqurroq integratsiya qilishni maqsad qilgan yangi hisoblash muhiti konsepsiyasi.**
 
-Maqsad shunchaki rang, joylashuv yoki shaklni sozlash emas. Foydalanuvchi obyektlarning **ma'lumotlari, xatti-harakati va o‘zaro munosabatlarini** qayta tuza olishi; bir nechta obyektning kombinatsiyasidan yangi foydali obyekt hosil qila olishi kerak.
+Maqsad insondan dasturlar, fayl-menyular, coding yoki qurilmalar strukturasini oldindan mukammal bilishni talab qilmasdan, uning fikrlarini **foydali, tekshiriladigan, qayta shakllantiriladigan hisoblash jarayonlari**ga yaqinlashtirishdir.
 
-Bu g‘oya dastlab shaxsiy workspace sifatida sinalishi, uzoq muddatda esa operatsion muhit (OS-level shell/runtime) darajasiga chiqishi mumkin. Noldan kernel yaratish maqsadning majburiy qismi emas.
+Kompyuter faqat oldindan belgilangan interfeyslar to‘plami emas, inson o‘z fikriga va ishiga moslay oladigan hisoblash muhiti bo‘lishi kerak.
 
-## Foydalanuvchi tajribasi
+## Nima uchun?
 
-- Foydalanuvchi o‘zining doimiy personal space'iga kiradi.
-- Obyektlarni ko‘radi, ko‘chiradi, cho‘zadi, ajratadi, bog‘laydi va qayta birlashtiradi.
-- O‘zgarish uchun alohida editor yoki kod paneli ochishi **shart emas**.
-- Tahrirlash va oddiy foydalanish ajralib turadi: xato harakatlar tushunarli va orqaga qaytariladigan bo‘ladi.
-- Mos obyektlardan yangi xatti-harakat paydo bo‘lishi mumkin; noaniq holatlarda tizim foydalanuvchi niyatini aniqlaydi.
-- Yangi obyekt keyin ham ishlaydi, saqlanadi, ko‘chiriladi, tushuntiriladi, xavfsiz ishlatiladi.
+An'anaviy kompyuterlarda inson ko‘pincha vazifani bajarishdan oldin muayyan ilova, UI, workflow yoki texnik vositani o‘rganadi. Bu ko‘p vazifalarda yaxshi ishlagan, ammo inson kreativligi bilan texnik implementatsiya o‘rtasida qo‘shimcha to‘siq paydo qiladi.
 
-## Asosiy prinsiplar — taklif
+Living bu xarajatni kamaytirishga intiladi:
+- oddiy odamlarga nisbatan murakkab texnik yaratish imkoniyatlarini ochish;
+- turli kasblarda kundalik ishni soddalashtirish va tezlashtirish;
+- insonning o‘z maqsadi va yaratgan natijasi ustidan nazoratini saqlash;
+- kompyuterdan foydalanish va unda yangi narsa yaratish o‘rtasidagi qat'iy chegaralarni kamaytirish.
 
-1. **Agency:** foydalanuvchi ishlash usulini o‘zi belgilaydi; sistemaning yashirin qoidalari minimal.
-2. **Directness:** obyekt bilan ishlash va uni o‘zgartirish imkon qadar bir makonda.
-3. **Meaning over shape:** yangi shakl emas, yangi foydali imkoniyat markazda.
-4. **Composability:** obyektlarning imkoniyatlari shaffof va qonuniy yo‘l bilan birlashadi.
-5. **Safety & reversibility:** har bir muhim o‘zgarish tekshiriladi va qaytariladi; nozik amallar ruxsatsiz bajarilmaydi.
-6. **Progressive complexity:** yangi foydalanuvchi tayyor muhitdan boshlaydi, kerak bo‘lsa chuqurroq o‘zgartiradi.
-7. **Portability:** yadro modeli bitta rendering engine yoki OS'ga bog‘lanmasligi lozim.
-8. **Accessibility:** erkin fazoviy shakl klaviatura va yordamchi texnologiyalarni chetga surmasligi kerak.
+**Bu Minecraft-ga o‘xshash o‘yin yoki dekorativ 3D makon emas.** Har qanday vizual yoki fizik metafora real ish vazifasini yengillashtirgandagina qiymatga ega.
+
+## Living nimani o‘zgartirishga intiladi?
+
+| Bugungi odatiy model | Living yo‘nalishi |
+|---|---|
+| App-first | Intent-first |
+| Qat'iy, tayyor funksiyalar | Malleable va composable imkoniyatlar |
+| Ilovani qanday ishlatishni avval o‘rganish | Maqsadni ifodalash va natija bilan bevosita ishlash |
+| Ishlatish va yaratish alohida | Continuous creation + use |
+| UI muayyan qurilmaga bog‘langan | Asosiy hisoblash modeli input/output modality'dan mustaqil |
+| Kod/texnik ko‘nikma talab qilinishi mumkin | Texnik murakkablikni kamaytirish; tekshirish imkonini saqlash |
+
+Bu jadval barcha eski usullarni bekor qilish rejasi emas: klaviatura, kod, spreadsheet yoki ekran ayrim ishda eng mos vosita bo‘lib qolishi mumkin.
+
+## Personal Living Space
+
+Har bir foydalanuvchida o‘z ma'lumotlari va hisoblash obyektlari yashaydigan davomiy **personal space** bo‘lishi mumkin.
+
+Unda:
+- obyektlarni ushlash, ko‘chirish, deformatsiya qilish, ajratish yoki birlashtirish kabi bevosita amallar mavjud bo‘ladi;
+- foydalanuvchi obyektning faqat **ko‘rinishi**ni emas, **ma'lumoti, funksiyasi va aloqalari**ni ham o‘zgartira olishi kerak;
+- alohida editor, dasturlash tili yoki doimiy chat oynasi asosiy vositachi bo‘lishi shart emas;
+- yangi capability'lar paydo bo‘lsa, ularning ishlashi, manbasi, ruxsati va qaytarilishi tushunarli bo‘ladi.
+
+Biroq “har qanday obyektni istagan shakl va funksiyaga o‘zgartirish” hozircha isbotlangan imkoniyat emas. Bu tadqiqot savoli.
+
+## Uzoq muddatli ambitsiya: hisoblash qurilmalariga ta'sir
+
+Living an'anaviy **ekran, sichqoncha va klaviatura** haqidagi tushunchalarni qayta ko‘rib chiqishga, keyinchalik yangi kompyuter shakllariga olib kelishi mumkin.
+
+Lekin yangi hardware yoki VR/AR **boshlang‘ich talab ham, tasdiqlangan yo‘l ham emas**. Avval foydali interaction/computation model tekshiriladi, keyin unga mos qurilmalar tanlanadi.
+
+## O‘zgarmas bo‘lishi taklif qilinayotgan prinsiplar
+
+1. **Human agency:** niyat, ijodiy yo‘nalish va muhim qarorlar ustidan nazorat insonda.
+2. **Purpose before interface:** yangi ko‘rinish emas, real natija.
+3. **Intent-driven creation:** foydalanuvchi maqsadni ifodalaydi, tizim variant va ishlaydigan modellar bilan yordam beradi.
+4. **Malleable computing:** foydalanish davomida vosita va funksiyalarni qayta shakllantirish.
+5. **Composable capabilities:** foydali imkoniyatlarni tartibli, tushunarli birlashtirish.
+6. **Transparency, verification and safety:** yangi behavior nimaga asoslangani va qanday natija berayotgani tekshiriladi.
+7. **Reversibility:** mavjud holat, munosabat va transformatsiyalar imkon qadar qaytariladi.
+8. **Modality independence:** 2D, 3D, ovoz, gesture yoki klaviatura — hisoblashning alohida ifodalanish yo‘llari.
+9. **Accessibility and progressive complexity:** tizim foydalanuvchini ortiqcha murakkablik bilan jazolamasligi kerak.
 
 ## Hozircha va'da qilinmaydigan narsalar
 
-- Har qanday ikki obyekt **har doim** ma'noli yangi funksiyani avtomatik beradi.
-- Mavjud har qanday yopiq ilovaning har bir elementi universallashtirilib erkin o‘zgartiriladi.
-- AI yaratgan kod tekshiruvsiz to‘g‘ri, xavfsiz yoki foydali bo‘ladi.
-- Living tayyor Windows/macOS/Linux o‘rnini bosadi.
+- Har qanday noaniq fikr avtomatik to‘g‘ri dasturga aylanadi.
+- Har qanday ikki obyekt birlashtirilsa foydali yangi funksiya hosil bo‘ladi.
+- Barcha yopiq dasturlarning ichki funksiyalarini erkin qayta yozish mumkin.
+- AI yaratgan natijalar inson tekshiruvisiz doim xavfsiz bo‘ladi.
+- Yangi qurilma yoki 3D interfeys hozirgi vositalarga nisbatan doim tezroq.
+- Living hozirdanoq amalda barcha sohalar uchun universal OS bo‘lib ishlay oladi.
 
-## Muvaffaqiyatning amaliy belgisi
+## Muvaffaqiyat mezoni
 
-Foydalanuvchi real vazifasida mavjud vositalarga nisbatan foydali yangi obyektni **tezroq, kamroq xato bilan, tushunib** yaratadi va undan yana foydalanadi. Faqat chiroyli demo yoki ko‘p drag-and-drop harakati yetarli mezon emas.
+**Living insonning real ishda qanday yangi imkoniyatlarga erishishini o‘zgartira olishi kerak.**
+
+Shuning uchun kuzatish kerak: task completion, sifat, xato va recovery, time-to-useful-result, keyinchalik qayta foydalanish, accessibility va mavjud vositalarga nisbatan real foyda.
+
+UI yaratish qanchalik qiziqarli bo‘lgani yoki AI qanday effektli ko‘ringani o‘z-o‘zicha yetarli emas.
 
 ## Bog‘liq hujjatlar
 
+- [Conceptual Framework v0.1](concepts/conceptual-framework-v0.1.md)
+- [So‘nggi suhbat xulosalari](research/conversation-findings-2026-11-11.md)
 - [Living Object Model](concepts/living-object-model.md)
-- [Direct manipulation](concepts/direct-manipulation.md)
+- [Interaction principles](design/interaction-principles.md)
+- [Prototype feedback](design/prototype-feedback-2026-11-11.md)
 - [Feasibility analysis](research/feasibility-2026-11-11.md)
 - [Ochiq savollar](open-questions.md)
 
-**Eslatma:** Bular loyihaning tadqiqot yo‘nalishi. Keyingi foydalanuvchi sinovlari bu tasavvurning ayrim qismlarini rad etishi yoki o‘zgartirishi mumkin.
+**Eslatma:** Vision — insonning niyati va tadqiqot yo‘nalishi. Konseptual model, UI/UX va texnik arxitektura eksperiment natijalariga qarab o‘zgarishi mumkin.
