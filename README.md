@@ -1,63 +1,66 @@
 # Living
 
-> **Living** — a research initiative exploring *malleable computing*: a personal digital environment that people can directly reshape, compose, and extend as naturally as working with physical material.
+> **Living** is a research initiative exploring *malleable computing*: a personal digital environment that people can reshape, compose, and extend directly — like working with physical material.
 
-**Status:** Early research / concept development  
-**Repository purpose:** Research, evidence, conceptual models, experiments, and decisions — **not application source code**.
+**Repository:** Research & Knowledge Base (not application source code)  
+**State:** Early research, November 2026  
+**Language:** Asosan o‘zbekcha; texnik terminlar inglizcha saqlanishi mumkin.
 
-## G‘oya
+## Living nima?
 
-Living — bu oddiy UI builder, website builder yoki faqat sozlanadigan desktop emas.
+Living oddiy UI builder, sayt quruvchisi yoki faqat rang/joylashuvni sozlash imkoniyati emas. U har bir foydalanuvchining **personal digital space** muhitida obyektlarning ko‘rinishi, ma'lumotlari va xatti-harakatlarini **ish jarayonining o‘zida**, alohida editor ochmasdan shakllantira olishini o‘rganadi.
 
-Tasavvur qilinayotgan tizimda har bir foydalanuvchining shaxsiy raqamli makoni mavjud. Undagi obyektlarni alohida editor ochmasdan bevosita ko‘chirish, cho‘zish, ajratish, qayta shakllantirish va birlashtirish mumkin. Muhim jihati: foydalanuvchi obyektning nafaqat **ko‘rinishini**, balki **xatti-harakatini va funksiyasini** ham o‘zgartira olishi kerak.
+Ideal holatda ikki obyekt birlashib, oldin mavjud bo‘lmagan yangi foydali funksional obyektga aylanishi mumkin. Biroq **har qanday kombinatsiya foydali va to‘g‘ri natija berishi** hozircha isbotlanmagan.
 
-Ikkita obyektni birlashtirish yangi funksional obyektni hosil qilishi mumkin. Lekin bunday natija har doim avtomatik ravishda ma'noli bo‘ladi, degan taxmin **hali isbotlanmagan**.
+Uzoq muddatli yo‘nalish — OS darajasidagi personal computing environment; dastlabki tekshiruv uchun yangi kernel majburiy emas.
 
-Living'ning uzoq muddatli maqsadi — bu imkoniyatlarni alohida sayt ichida emas, operatsion muhit darajasida taqdim etish. Buning uchun noldan kernel yozish shart degan qaror qabul qilinmagan.
+## Boshlash uchun: hujjatlar xaritasi
 
-## Asosiy tadqiqot savollari
+| Yo‘nalish | Hujjat | Status |
+|---|---|---|
+| G‘oya va prinsiplar | [VISION.md](VISION.md) | Vision / intent |
+| Asosiy atamalar | [GLOSSARY.md](GLOSSARY.md) | Working definitions |
+| Keng baholash | [Feasibility assessment](research/feasibility-2026-11-11.md) | Research synthesis / assessment |
+| Oldingi ishlar | [Prior art](research/prior-art.md) | Evidence + interpretation |
+| Ilmiy / rasmiy manbalar | [Sources register](research/sources.md) | Curated sources, verification status |
+| Kimga foydali va bozor | [Product value](research/product-value.md) | Hypotheses |
+| Asosiy hisoblash modeli | [Living Object Model](concepts/living-object-model.md) | Technical proposal |
+| Editor'siz shakllantirish | [Direct manipulation](concepts/direct-manipulation.md) | Interaction proposal |
+| Xavflar | [Risk register](risks/risk-register.md) | Initial risk assessment |
+| Birinchi sinov | [Experiment 001](experiments/001-object-composition.md) | Proposed; not performed |
+| Hal qilinmagan savollar | [Open questions](open-questions.md) | Research backlog |
+| Rivojlanish bosqichlari | [Roadmap](proposals/roadmap.md) | Proposal; not decided |
 
-1. **Direct manipulation:** foydalanuvchi obyektni ishlatish va uni shakllantirish harakatlarini qanday tabiiy ajrata oladi?
-2. **Living objects:** obyektning shakli, holati, ma'lumotlari, xatti-harakati va ruxsatlari qanday ifodalanadi?
-3. **Composition:** turli obyektlar birlashganda qanday qilib foydali va oldindan taxmin qilinadigan yangi funksiyalar paydo bo‘ladi?
-4. **AI + determinism:** AI yangi imkoniyatlarni taklif qilganda noto‘g‘ri taxminlar, xavfli kod yoki noaniq xatti-harakatlar qanday boshqariladi?
-5. **Trust & reversibility:** har bir o‘zgarishni qanday tushuntirish, bekor qilish, qaytarish va xavfsiz bajarish mumkin?
-6. **Compatibility:** mavjud ilovalar bilan integratsiyaning chegaralari qanday?
-7. **Usability:** erkinlik real ish samaradorligini oshiradimi yoki murakkablikni ko‘paytiradimi?
+## Nimalar ma'lum, nimalar noma'lum?
+
+**Mavjud texnologiyalar bilan real:** erkin canvas, grafik obyektlar, persisted state, type-checked components, granular permissions, local-first patterns.
+
+**Loyihada tekshirilishi kerak:** oddiy foydalanuvchi uchun tabiiy gesture grammar, semantik kompozitsiya, yangi behavior'ning tushunarliligi, real task benefit, retention.
+
+**Hozircha va'da qilinmaydi:** universal semantik kompozitsiya yoki yopiq uchinchi tomon ilovalari ichki qismlarini mutlaq erkin o‘zgartirish.
 
 ## Bilimlar bilan ishlash qoidasi
 
-Har bir material quyidagi toifalardan biri bilan belgilanishi kerak:
+Har bir yangi hujjat imkon qadar quyidagilarni aniq ajratsin:
 
-- **Evidence:** ishonchli manba yoki kuzatilgan natija; havola, sana va cheklovlar bilan.
-- **Hypothesis:** hali tekshirilmagan, rad etilishi mumkin bo‘lgan faraz.
-- **Proposal:** texnik yoki interaksiya yechimi taklifi; hali qabul qilingan qaror emas.
-- **Experiment:** usul, kuzatuv, natija va takrorlash uchun zarur shartlar.
-- **Decision:** muqobillar ko‘rib chiqilib, sababi yozilgan tanlov.
+- **Evidence:** manba; nimalar amalda isbotlangan; sample size va cheklovlar.
+- **Hypothesis:** hali sinalmagan, rad qilinishi mumkin bo‘lgan faraz.
+- **Proposal:** texnik, UX yoki mahsulot yo‘li; hali qabul qilingan qaror emas.
+- **Experiment:** usul, oldindan qo‘yilgan mezon, natija, cheklov.
+- **Decision:** muqobil variantlar ko‘rilgan va sabab bilan qabul qilingan tanlov (qaror qilinmaguncha “decision” deb yozilmaydi).
 
-Tadqiqotlar faqat Living g‘oyasini tasdiqlash uchun emas, **uni sinash va zarur bo‘lsa rad etish** uchun ham to‘planadi. Fakt, talqin va taxmin aralashtirilmaydi.
+Manbalarni [research/sources.md](research/sources.md) reyestrida saqlang. Ikkilamchi xulosani manba dalili sifatida ko‘rsatmang. Salbiy natijalarni ham yozing.
 
-## Rejalashtirilgan bilim bazasi
+## Keyingi eng muhim bosqich
 
-Repository o‘sishi bilan quyidagi bo‘limlar shakllanadi:
+[Experiment 001](experiments/001-object-composition.md) bilan aniqlash: foydalanuvchi ikkita Living-native obyektni editor/kodsiz birlashtirib, **yangi ishlaydigan va saqlanadigan** obyekt hosil qila oladimi? Bu ish real vazifada mavjud vositadan yaxshiroqmi?
 
-- `VISION.md` — konsepsiya, asosiy prinsiplar, chegaralar.
-- `GLOSSARY.md` — tushunchalarning aniq ta'riflari.
-- `research/` — ilmiy ishlar, oldingi loyihalar, texnologiyalar va tanqidiy tahlillar.
-- `concepts/` — obyekt modeli, kompozitsiya va interaksiya konsepsiyalari.
-- `experiments/` — gipotezalarni tekshirish va natijalar.
-- `decisions/` — qarorlar va ularning asoslari.
-- `open-questions.md` — javobi topilmagan savollar.
+Yuqoridagi protokol **hozircha taklif**; eksperiment bajarilgan emas.
 
-Bu kataloglar hozircha **reja**, mavjud fayllar ro‘yxati emas. Struktura bilimlar ko‘paygani sayin o‘zgarishi mumkin.
+## Ochiqlik, mualliflik va xavfsizlik
 
-## Hozirgi chegaralar
-
-- Bu repozitoriy **ishlayotgan OS mavjud** degani emas.
-- Har qanday ikki obyekt istalgan vazifani bajara oladigan yangi obyektga aylanishi **kafolatlanmagan**.
-- Barcha uchinchi tomon ilovalarining ichki UI qismlarini o‘zgartirish imkoniyati **hozircha mavjud deb hisoblanmaydi**.
-- Dastlab maqsad keng ko‘lamli OS yozish emas, fundamental interaksiya va obyekt-kompozitsiya farazlarini isbotlashdir.
+Bu public repository. Unda shaxsiy yoki maxfiy ma'lumot, token, kalit va nashr qilinishi rejalashtirilmagan materiallarni saqlamang. Tashqi maqolalarning to‘liq matnini litsenziyasiz ko‘chirmang; havola va o‘z tahlilingizni yozing. Kontent litsenziyasi alohida tanlanmaguncha ochiq ko‘rinish avtomatik ravishda qayta ishlatish huquqi bermaydi.
 
 ---
 
-*This repository documents an evolving research direction, not a finished product or a set of established technical claims.*
+*Living is currently a research direction, not a shipped operating system. The repository is expected to change as evidence accumulates.*
