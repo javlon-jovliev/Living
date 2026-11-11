@@ -44,6 +44,18 @@
 - Foydalanuvchi erkinligi ortganda himoya darajasini pasaytirmay turib qanday progressiv imkoniyat beramiz?
 - Eng qimmat OS/desktop ishlari yadro gipotezasiga umuman bog‘liq bo‘lmasligi mumkinmi?
 
+## Yangi savollar (2026-11-11 suhbatidan)
+
+- Birinchi foydalanuvchi kim va uning har kuni takrorlanadigan qaysi ishi tanlanadi?
+- Maqsad tadqiqot g‘oyasini isbotlashmi yoki daromad keltiradigan mahsulotmi?
+- Muhit oddiy ekran uchunmi yoki VR/AR uchunmi?
+- Qaysi fizik xususiyat (o‘lcham, temperatura, og‘irlik, rang) qaysi ma'noga tabiiy mos keladi? → [Fizik muhit](concepts/physical-environment.md)
+- Komponentning "valentligi"ni kim belgilaydi: yasagan odammi, AI'mi? Xato qanday aniqlanadi?
+- Foydalanuvchi quruvchi bo‘lishi kerakmi yoki AI taklifini tuzatuvchi tahrirchimi? → [Market evidence](research/market-evidence-2026-11.md)
+- Qo‘l bilan ifodalab bo‘lmaydigan narsalar (shart, "doim", "xat kelganda") qanday kiritiladi? → [Fizik harakat chegaralari](concepts/physical-actions-limits.md)
+- Muhit odamning mavjud ma'lumotiga (pochta, fayl, kalendar) qanday ulanadi?
+- Tayyor komponentlar bazasida sifat va xavfsizlikni kim tekshiradi?
+
 ## Savolga javob berish qoidasi
 
 Har bir savol keyinchalik ma'lum sinovga bog‘lanadi: **hypothesis → method → evidence → limitations → decision**. “AI buni qilishi mumkin” — mustaqil ilmiy dalil emas.
