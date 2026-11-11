@@ -1,6 +1,6 @@
 # Living
 
-> **Living** is a research initiative exploring *malleable computing*: a personal digital environment that people can reshape, compose, and extend directly — like working with physical material.
+> **Living** — inson fikri, niyati va kreativligini hisoblash imkoniyatlari bilan chuqurroq integratsiya qilishni o‘rganuvchi, intent-driven va malleable computing tadqiqot tashabbusi.
 
 **Repository:** Research & Knowledge Base (not application source code)  
 **State:** Early research, November 2026  
@@ -64,3 +64,14 @@ Bu public repository. Unda shaxsiy yoki maxfiy ma'lumot, token, kalit va nashr q
 ---
 
 *Living is currently a research direction, not a shipped operating system. The repository is expected to change as evidence accumulates.*
+
+## So‘nggi konseptual yangilanish — 2026-11-12
+
+So‘nggi suhbatdan keyin loyiha markazi aniqlashtirildi: **Living'ning maqsadi yangi desktop bezagi, Minecraftga o‘xshash qurilish o‘yini yoki alohida AI chat UI yaratish emas.** Maqsad inson niyati bilan foydali, tushunarli, tekshiriladigan hisoblash natijasi o‘rtasidagi texnik to‘siqlarni kamaytirishdir. Personal workspace, obyektlar, fizik/semantik kompozitsiya va kelajakdagi hardware — shu maqsadga xizmat qiladigan qatlamlar.
+
+- [Conceptual Framework v0.1](concepts/conceptual-framework-v0.1.md) — maqsad → paradigma → computing model → interaction → implementation.
+- [Interaction principles](design/interaction-principles.md) — minimal, real ish uchun multimodal va bevosita UX prinsiplari.
+- [Prototype feedback (2026-11-11)](design/prototype-feedback-2026-11-11.md) — birinchi desktop prototipining rad etilishi, keyingi vizual eksperimentlar uchun mezonlar.
+- [Recent conversation findings](research/conversation-findings-2026-11-11.md) — foydalanuvchi niyati, assistent takliflari va ochiq tadqiqot savollari.
+
+**Diqqat:** bular qabul qilingan texnik arxitektura yoki ishlaydigan mahsulot emas; tushuncha va gipotezalar tizimlashtirilgan.
