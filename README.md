@@ -23,6 +23,7 @@ Uzoq muddatli yo‘nalish — OS darajasidagi personal computing environment; da
 | Keng baholash | [Feasibility assessment](research/feasibility-2026-11-11.md) | Research synthesis / assessment |
 | Oldingi ishlar | [Prior art](research/prior-art.md) | Evidence + interpretation |
 | Ilmiy / rasmiy manbalar | [Sources register](research/sources.md) | Curated sources, verification status |
+| Niyatni so‘zsiz ifodalash | [Niyatni harakat orqali ifodalash](research/intent-through-action-2026-11-13.md) | Gipoteza va sinov taklifi |
 | Kimga foydali va bozor | [Product value](research/product-value.md) | Hypotheses |
 | Asosiy hisoblash modeli | [Living Object Model](concepts/living-object-model.md) | Technical proposal |
 | Editor'siz shakllantirish | [Direct manipulation](concepts/direct-manipulation.md) | Interaction proposal |
