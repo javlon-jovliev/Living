@@ -29,6 +29,26 @@
 | S22 | [Ishii & Ullmer — Tangible Bits (CHI 1997)](https://www.media.mit.edu/publications/tangible-bits-towards-seamless-interfaces-between-people-bits-and-atoms-2/) | Jismoniy obyekt va raqamli ma’lumotni bog‘lovchi prototiplar | Asosiy da’vo tekshirilgan |
 | S23 | [Jacob — What You Look at Is What You Get (CHI 1990)](https://www.cs.tufts.edu/~jacob/papers/chi90.pdf) | Nigohni yordamchi kirish sifatida ishlatish va tasodifiy tanlash muammosi | Asosiy da’vo tekshirilgan |
 
+## Qo‘shimcha manbalar (2026-11-11, Claude qidiruvi)
+
+Ko‘pchiligi yangiliklar va ikkilamchi xulosalar. Sintez: [market-evidence-2026-11.md](market-evidence-2026-11.md).
+
+| ID | Manba | Nimaga aloqador? | Holat |
+|---|---|---|---|
+| S18 | [TechRadar — Create My Widget](https://www.techradar.com/phones/android/googles-new-create-my-widget-tool-is-the-first-step-in-generative-ui-and-as-an-iphone-user-im-not-sure-how-ios-27-can-compete-with-android-17) | Android 17, so‘z bilan vidjet | Yangilik; ko‘rilgan |
+| S19 | [Google blog — Gemini Intelligence](https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/) | Create My Widget tarqalishi | Vendor claim; ko‘rilgan |
+| S20 | [9to5Google — Nothing Essential](https://9to5google.com/2025/09/30/nothing-essential-ai-app-generator-promises/) | AI mini-ilovalar, "AI OS" maqsadi | Yangilik; ko‘rilgan |
+| S21 | [GSMArena — Essential Apps Beta](https://www.gsmarena.com/nothings_personalized_aigenerated_essential_apps_now_in_beta-news-71496.php) | Beta cheklovlari, ruxsatlar | Yangilik; ko‘rilgan |
+| S22 | [heise — Imagine with Claude](https://heise.de/-10699104) | Generativ ish stoli sinovi va kamchiliklari | Yangilik/sharh; ko‘rilgan |
+| S23 | [The Decoder — tldraw computer](https://the-decoder.com/tldraw-unveils-experimental-natural-language-computer-powered-by-gemini-2-0/) | Canvas'da ulanadigan komponentlar | Yangilik; ko‘rilgan |
+| S24 | [TechCrunch — Wabi $20M pre-seed (2025-11-05)](https://techcrunch.com/2025/11/05/replika-founder-raises-20m-pre-seed-for-wabi-the-youtube-of-apps/) | Shaxsiy mini-ilovalar platformasi | Yangilik; ko‘rilgan |
+| S25 | [TechCrunch — Wabi yo‘nalishini o‘zgartirdi (2026-09-29)](https://techcrunch.com/2026/09/29/ai-powered-app-maker-wabi-pivots-to-a-messaging-experience/) | Foydalanuvchi yasashni xohlamasligi | Yangilik; asoschi so‘zi, statistika yo‘q |
+| S26 | [TechCrunch — Wabi bahosi (2026-10-29)](https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1.25b-after-latest-round/) | Bozor signali | Yangilik; faqat sarlavha darajasida ko‘rilgan |
+| S27 | [Conversational Customization of Productivity Systems (UIST 2026)](https://arxiv.org/html/2605.11149v1) | Malleable AI interfeys, N=8, 3 kun | Ilmiy maqola; xulosa orqali ko‘rilgan, kichik namuna |
+| S28 | [Jared Spool — Do users change their settings?](https://archive.uie.com/brainsparks/2011/09/14/do-users-change-their-settings/) | Sozlamani o‘zgartirish darajasi (<5%) | Blog; eski, usuli qisqa tavsiflangan |
+| S29 | [Geoffrey Litt — komponentli dasturlar nega ommalashmadi](https://threadreaderapp.com/thread/1362779200143446018.html) | OpenDoc saboqlari, 7 nazariya | Fikr; ko‘rilgan |
+| S30 | [Ink & Switch — Malleable Software (loyiha sahifasi)](https://www.inkandswitch.com/malleable-software/) | Davom etayotgan tadqiqot (Patchwork) | Qidiruv natijasi orqali; sahifa to‘liq o‘qilmagan |
+
 ## Source review template
 
 Yangi manba qo‘shilganda:

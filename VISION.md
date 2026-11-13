@@ -4,6 +4,8 @@
 **Yangilangan:** 2026-11-12  
 **Asosiy konsept:** [Conceptual Framework v0.1](concepts/conceptual-framework-v0.1.md)
 
+> **O‘zgarmas mag‘iz (Javlon qarori, 2026-11-12):** shaxsiy doimiy makon; fizik qonunlarga bo‘ysunadigan, qo‘l bilan editorsiz shakllantiriladigan komponentlar; shakl bilan funksiya ham o‘zgaradi va mos komponentlar birlashadi, mos kelmasa qo‘shilmaydi; tayyor komponentlar bazasi va ulashish; o‘yin emas, kundalik ish uchun. Quyidagi missiya shu mag‘izni almashtirmaydi, uning nima uchun kerakligini tushuntiradi. Batafsil: [Prototype iterations](design/prototype-iterations-2026-11-12.md).
+
 ## Missiya
 
 **Living — insonning fikrlashi, tasavvuri, niyati va kreativligini hisoblash mashinalari bilan chuqurroq integratsiya qilishni maqsad qilgan yangi hisoblash muhiti konsepsiyasi.**

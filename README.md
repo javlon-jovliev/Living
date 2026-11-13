@@ -27,7 +27,13 @@ Uzoq muddatli yo‘nalish — OS darajasidagi personal computing environment; da
 | Kimga foydali va bozor | [Product value](research/product-value.md) | Hypotheses |
 | Asosiy hisoblash modeli | [Living Object Model](concepts/living-object-model.md) | Technical proposal |
 | Editor'siz shakllantirish | [Direct manipulation](concepts/direct-manipulation.md) | Interaction proposal |
+| Fizika va "kimyo" qoidali muhit | [Fizik muhit](concepts/physical-environment.md) | Vision + tahlil |
+| Qo‘l nimani ifodalay oladi | [Fizik harakat chegaralari](concepts/physical-actions-limits.md) | Tahlil / hypothesis |
+| 2025–2026 mahsulotlar va tadqiqotlar | [Market evidence](research/market-evidence-2026-11.md) | Evidence + talqin |
+| Mustaqil tanqidiy baho | [Critical review](research/critical-review-2026-11-11.md) | Fikr; qaror emas |
 | Xavflar | [Risk register](risks/risk-register.md) | Initial risk assessment |
+| Ishlaydigan prototiplar (v1–v4) | [Prototypes](prototypes/README.md) | Sketch models; qo‘l ishorasi real kamerada sinalmagan |
+| Prototip iteratsiyalari va mag‘iz qarori | [Prototype iterations](design/prototype-iterations-2026-11-12.md) | Javlon qarorlari + Claude taklifi |
 | Birinchi sinov | [Experiment 001](experiments/001-object-composition.md) | Proposed; not performed |
 | Hal qilinmagan savollar | [Open questions](open-questions.md) | Research backlog |
 | Rivojlanish bosqichlari | [Roadmap](proposals/roadmap.md) | Proposal; not decided |
