@@ -22,6 +22,12 @@
 | S15 | [Veracode GenAI Code Security 2026](https://view.ceros.com/veracode/genai-code-security-report2026) | Generated code risks | Qo‘shimcha tekshiruv; benchmark-dependent |
 | S16 | [Block-based or Graph-based? (2025)](https://academic.oup.com/iwc/article/38/1/40/8151473) | End-user programming usability | Qo‘shimcha tekshiruv |
 | S17 | [GitHub: Licensing a Repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository) | Research text rights and licensing | Qo‘shimcha tekshiruv |
+| S18 | [Kirsh & Maglio — On Distinguishing Epistemic from Pragmatic Action (1994)](https://doi.org/10.1016/0364-0213(94)90007-8) | Tetris tajribasida harakat orqali masalani yengillashtirish | Asosiy da’vo tekshirilgan, natija vazifaga xos |
+| S19 | [Horvitz — Principles of Mixed-Initiative User Interfaces (CHI 1999)](https://www.microsoft.com/en-us/research/publication/principles-mixed-initiative-user-interfaces/) | Avtomatlashtirish va bevosita boshqaruvni birlashtirish tamoyillari | Asosiy da’vo tekshirilgan |
+| S20 | [Bolt — Put-That-There (SIGGRAPH 1980)](https://doi.org/10.1145/800250.807503) | Nutq va ko‘rsatish bilan grafik obyektlarni boshqarish | Prototip, asosiy da’vo tekshirilgan |
+| S21 | [Cypher — Eager (CHI 1991)](https://www.acypher.com/Publications/CHI91/EagerCHI.html) | Amalni misoldan takrorlash va keyingi qadam taxminini ko‘rsatish | Prototip, asosiy da’vo tekshirilgan |
+| S22 | [Ishii & Ullmer — Tangible Bits (CHI 1997)](https://www.media.mit.edu/publications/tangible-bits-towards-seamless-interfaces-between-people-bits-and-atoms-2/) | Jismoniy obyekt va raqamli ma’lumotni bog‘lovchi prototiplar | Asosiy da’vo tekshirilgan |
+| S23 | [Jacob — What You Look at Is What You Get (CHI 1990)](https://www.cs.tufts.edu/~jacob/papers/chi90.pdf) | Nigohni yordamchi kirish sifatida ishlatish va tasodifiy tanlash muammosi | Asosiy da’vo tekshirilgan |
 
 ## Source review template
 
